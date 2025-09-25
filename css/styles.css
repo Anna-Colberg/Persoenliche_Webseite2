@@ -1,13 +1,7 @@
 *{box-sizing: border-box;}
 
-html {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
     background-color: rgb(233, 218, 218);
-    margin: 0px;
      }
 
 h2 {
@@ -25,7 +19,7 @@ ul {
 .title{
     background-color: rgb(87, 11, 11);
     margin: 0px;
-    position: fixed;
+    
     top: 0px;
     left: 0px;
     right: 0px;
