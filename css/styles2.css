@@ -2,13 +2,21 @@ element.style {
   *box-sizing: border-box;
 }
 
+
+html {
+  
+}
+
 :root {
   --color-font: rgb(0, 0, 0);
   --color-header: rgb(233, 93, 61);
+  --color-body: rgb(124, 223, 123);
   --color-first: rgb(212, 234, 71);
   --color-firstone: rgb(59, 231, 68);
   --color-second: rgb(69, 207, 214);
   --color-secondtwo: rgb(54, 31, 185);
+  --color-third:  rgb(202, 73, 193);
+  --color-thirdthree: rgb(214, 25, 35);
 }
 
 
@@ -20,18 +28,20 @@ ul {
 details {
     margin-top: 100px;
     margin-left: 100px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 
 header {
-  background-color: var(--color-header);
   text-align: center;
   border-bottom: 4px solid var(--color-font);
   border-top: 4px solid var(--color-font);
   position: fixed;
   right: 0px;
   left: 0px;
+  background-color: var(--color-header);
 }
 
 
@@ -44,7 +54,7 @@ h2 {
 
 
 
-main {
+.main {
     display: grid;
     gap: 1rem;
     grid-template-areas: 
@@ -52,95 +62,131 @@ main {
     "gruen gruen gruen hblau" 
     "dblau dblau lila hblau"
     "rot rot lila hblau";
+    grid-template-rows: repeat (4, 3fr);
+    grid-auto-columns: 1fr;
     
 }
 
 
 
 body {
-  background-color: rgb(124, 223, 123);
+  background-color: var(--color-body) ;
   margin: 0;
 }
 
 
 
 .first {
-  border: 2px dotted;
-  border-radius: 50px;
-  background-color: var(--color-first);
-  grid-area: gelb;
-  text-align: center;
+  width: ;
   margin-left: 30px;
   margin-right: 30px;
+  padding: ;
+  text-align: center;
   font-size: larger;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px dotted;
+  border-radius: 50px;
+  grid-area: gelb;
+  background-color: var(--color-first);
 }
 
 
 
 .firstone {
-  background-color: var(--color-firstone);
-  grid-area: gruen;
+  width: ;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 40px;
+  text-align: ;
+  font-size: ;
+  font-family: ;
   border: 4px solid;
   border-radius: 20px;
-  margin-left: 30px;
-  margin-right: 30px
-  padding: 40px;
+  grid-area: gruen;
+  background-color: var(--color-firstone);
 }
 
 
 
 .second {
-  background-color: var(--color-second);
-  grid-area: hblau;
-  border: 2px dotted;
-  border-radius: 50px;
+  width: ;
   margin-left: 30px;
   margin-right: 30px;
   padding: 40px;
+  text-align: ;
+  font-size: ;
+  font-family: ;
+  border: 2px dotted;
+  border-radius: 50px;
+  grid-area: hblau;
+  background-color: var(--color-second);
 }
 
 
 
 .secondtwo {
-  background-color: var(--color-secondtwo);
-  grid-area: dblau;
-  border: 4px solid;
-  border-radius: 20px;
+  width: ;
   margin-left: 30px;
   margin-right: 30px;
   padding: 40px;
+  text-align: ;
+  font-size: ;
+  font-family: ;
+  border: 4px solid;
+  border-radius: 20px;
+  grid-area: dblau;
+  background-color: var(--color-secondtwo);
+  
 }
 
 
 
 .third {
-  background-color: rgb(202, 73, 193);
-  grid-area: lila;
-  border: 2px dotted;
-  border-radius: 50px;
+  width: ;
+  display: flex;
+  flex-wrap: wrap;
   margin-left: 30px;
   margin-right: 30px;
   padding: 40px;
+  text-align: ;
+  font-size: ;
+  font-family: ;
+  border: 2px dotted;
+  border-radius: 50px;
+  grid-area: lila;
+  background-color: var(--color-third);
 }
 
 
 
 .thirdthree {
-  background-color: rgb(214, 25, 35);
-  grid-area: rot;
-  border: 4px solid;
-  border-radius: 20px;
+  width: ;
   margin-left: 30px;
   margin-right: 30px;
   padding: 40px;
+  text-align: ;
+  font-size: ;
+  font-family: ;
+  border: 4px solid;
+  border-radius: 20px;
+  grid-area: rot;
+  background-color: var(--color-thirdthree) ;
 }
 
 
 
 
 .fourfour {
+  width: ;
+  margin-left: ;
+  margin-right: ;
+  padding: ;
   text-align: start;
+  font-size: ;
+  font-family: ;
+  border: ;
+  border-radius: ;
+  background-color: ;
 }
 
 
